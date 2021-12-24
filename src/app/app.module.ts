@@ -4,6 +4,8 @@ import { AppComponent } from './app.component';
 import {RouterModule} from '@angular/router';
 import {appRoutes} from './app.routes';
 import {SharedModule} from './shared/shared.module';
+import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
+
 
 @NgModule({
   declarations: [
@@ -12,6 +14,7 @@ import {SharedModule} from './shared/shared.module';
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes),
+    BsDatepickerModule.forRoot(),
     SharedModule
   ],
   providers: [],
