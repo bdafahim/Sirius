@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import {RouterModule} from '@angular/router';
 import {appRoutes} from './app.routes';
-import {SiriusSkeletonModule} from './featureModules/sirius-skeleton/sirius-skeleton.module';
+import {SharedModule} from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +12,7 @@ import {SiriusSkeletonModule} from './featureModules/sirius-skeleton/sirius-skel
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes),
-    SiriusSkeletonModule
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
