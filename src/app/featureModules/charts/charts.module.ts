@@ -11,6 +11,9 @@ import { ParallelGraphComponent } from './parallel-graph/parallel-graph.componen
 import { ErrorBarsComponent } from './error-bars/error-bars.component';
 import { PolarChartComponent } from './polar-chart/polar-chart.component';
 import { RadarChartComponent } from './radar-chart/radar-chart.component';
+import { HeatChartComponent } from './heat-chart/heat-chart.component';
+import { BarChartPlotlyComponent } from './bar-chart-plotly/bar-chart-plotly.component';
+import { WaterfallChartComponent } from './waterfall-chart/waterfall-chart.component';
 PlotlyModule.plotlyjs = PlotlyJS;
 
 @NgModule({
@@ -23,7 +26,10 @@ PlotlyModule.plotlyjs = PlotlyJS;
     ParallelGraphComponent,
     ErrorBarsComponent,
     PolarChartComponent,
-    RadarChartComponent
+    RadarChartComponent,
+    HeatChartComponent,
+    BarChartPlotlyComponent,
+    WaterfallChartComponent
   ],
     imports: [
         CommonModule,

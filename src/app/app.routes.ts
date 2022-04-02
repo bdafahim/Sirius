@@ -9,6 +9,9 @@ import {ParallelGraphComponent} from './featureModules/charts/parallel-graph/par
 import {ErrorBarsComponent} from './featureModules/charts/error-bars/error-bars.component';
 import {PolarChartComponent} from './featureModules/charts/polar-chart/polar-chart.component';
 import {RadarChartComponent} from './featureModules/charts/radar-chart/radar-chart.component';
+import {HeatChartComponent} from './featureModules/charts/heat-chart/heat-chart.component';
+import {BarChartPlotlyComponent} from './featureModules/charts/bar-chart-plotly/bar-chart-plotly.component';
+import {WaterfallChartComponent} from './featureModules/charts/waterfall-chart/waterfall-chart.component';
 
 export const appRoutes: Routes = [
   {path: 'signup', component: SignupComponent},
@@ -20,5 +23,8 @@ export const appRoutes: Routes = [
   {path: 'chart/para', component: ParallelGraphComponent},
   {path: 'chart/error', component: ErrorBarsComponent},
   {path: 'chart/polar', component: PolarChartComponent},
-  {path: 'chart/radar', component: RadarChartComponent}
+  {path: 'chart/radar', component: RadarChartComponent},
+  {path: 'chart/heat', component: HeatChartComponent},
+  {path: 'chart/bar-p', component: BarChartPlotlyComponent},
+  {path: 'chart/waterfall', component: WaterfallChartComponent}
 ];

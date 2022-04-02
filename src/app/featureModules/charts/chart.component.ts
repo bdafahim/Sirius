@@ -43,4 +43,15 @@ export class ChartComponent implements OnInit {
   radarChart() {
     this.router.navigateByUrl('chart/radar');
   }
+
+  heatChart() {
+    this.router.navigateByUrl('chart/heat');
+  }
+
+  barChartPlotly() {
+    this.router.navigateByUrl('chart/bar-p');
+  }
+  waterfallChart() {
+    this.router.navigateByUrl('chart/waterfall');
+  }
 }
