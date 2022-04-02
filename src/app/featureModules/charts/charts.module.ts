@@ -9,6 +9,7 @@ import { PieChartComponent } from './pie-chart/pie-chart.component';
 import { SankyChartComponent } from './sanky-chart/sanky-chart.component';
 import { ParallelGraphComponent } from './parallel-graph/parallel-graph.component';
 import { ErrorBarsComponent } from './error-bars/error-bars.component';
+import { PolarChartComponent } from './polar-chart/polar-chart.component';
 PlotlyModule.plotlyjs = PlotlyJS;
 
 @NgModule({
@@ -19,7 +20,8 @@ PlotlyModule.plotlyjs = PlotlyJS;
     PieChartComponent,
     SankyChartComponent,
     ParallelGraphComponent,
-    ErrorBarsComponent
+    ErrorBarsComponent,
+    PolarChartComponent
   ],
     imports: [
         CommonModule,

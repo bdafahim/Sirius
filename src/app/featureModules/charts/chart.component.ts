@@ -35,4 +35,8 @@ export class ChartComponent implements OnInit {
   errorChart() {
     this.router.navigateByUrl('chart/error');
   }
+
+  polarChart() {
+    this.router.navigateByUrl('chart/polar');
+  }
 }
