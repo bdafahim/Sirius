@@ -23,4 +23,12 @@ export class ChartComponent implements OnInit {
   pieChart() {
     this.router.navigateByUrl('chart/pie');
   }
+
+  sankyChart() {
+    this.router.navigateByUrl('chart/sanky');
+  }
+
+  parallel() {
+    this.router.navigateByUrl('chart/para');
+  }
 }

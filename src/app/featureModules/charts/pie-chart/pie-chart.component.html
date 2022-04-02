@@ -1,1 +1,13 @@
-<p>pie-chart works!</p>
+<div class="row">
+  <plotly-plot fxFlex="50"
+               [data]="graph1.data"
+               [layout]="graph1.layout"
+               [useResizeHandler]="true"
+  ></plotly-plot>
+
+  <plotly-plot fxFlex="50"
+               [data]="graph2.data"
+               [layout]="graph2.layout"
+               [useResizeHandler]="true"
+  ></plotly-plot>
+</div>
