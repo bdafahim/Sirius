@@ -4,6 +4,6 @@
 }
 .navbar-dark .navbar-nav .nav-link.active-link
 {
-  color: var(--primary-color);
+  color: #f1e710;
   text-decoration: underline;
 }
