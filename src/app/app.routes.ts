@@ -6,6 +6,7 @@ import {LineChartComponent} from './featureModules/charts/line-chart/line-chart.
 import {PieChartComponent} from './featureModules/charts/pie-chart/pie-chart.component';
 import {SankyChartComponent} from './featureModules/charts/sanky-chart/sanky-chart.component';
 import {ParallelGraphComponent} from './featureModules/charts/parallel-graph/parallel-graph.component';
+import {ErrorBarsComponent} from './featureModules/charts/error-bars/error-bars.component';
 
 export const appRoutes: Routes = [
   {path: 'signup', component: SignupComponent},
@@ -14,5 +15,6 @@ export const appRoutes: Routes = [
   {path: 'chart/line', component: LineChartComponent},
   {path: 'chart/pie', component: PieChartComponent},
   {path: 'chart/sanky', component: SankyChartComponent},
-  {path: 'chart/para', component: ParallelGraphComponent}
+  {path: 'chart/para', component: ParallelGraphComponent},
+  {path: 'chart/error', component: ErrorBarsComponent}
 ];

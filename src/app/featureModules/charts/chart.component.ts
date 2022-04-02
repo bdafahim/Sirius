@@ -31,4 +31,8 @@ export class ChartComponent implements OnInit {
   parallel() {
     this.router.navigateByUrl('chart/para');
   }
+
+  errorChart() {
+    this.router.navigateByUrl('chart/error');
+  }
 }
