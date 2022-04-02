@@ -39,4 +39,8 @@ export class ChartComponent implements OnInit {
   polarChart() {
     this.router.navigateByUrl('chart/polar');
   }
+
+  radarChart() {
+    this.router.navigateByUrl('chart/radar');
+  }
 }

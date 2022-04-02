@@ -10,6 +10,7 @@ import { SankyChartComponent } from './sanky-chart/sanky-chart.component';
 import { ParallelGraphComponent } from './parallel-graph/parallel-graph.component';
 import { ErrorBarsComponent } from './error-bars/error-bars.component';
 import { PolarChartComponent } from './polar-chart/polar-chart.component';
+import { RadarChartComponent } from './radar-chart/radar-chart.component';
 PlotlyModule.plotlyjs = PlotlyJS;
 
 @NgModule({
@@ -21,7 +22,8 @@ PlotlyModule.plotlyjs = PlotlyJS;
     SankyChartComponent,
     ParallelGraphComponent,
     ErrorBarsComponent,
-    PolarChartComponent
+    PolarChartComponent,
+    RadarChartComponent
   ],
     imports: [
         CommonModule,

@@ -8,6 +8,7 @@ import {SankyChartComponent} from './featureModules/charts/sanky-chart/sanky-cha
 import {ParallelGraphComponent} from './featureModules/charts/parallel-graph/parallel-graph.component';
 import {ErrorBarsComponent} from './featureModules/charts/error-bars/error-bars.component';
 import {PolarChartComponent} from './featureModules/charts/polar-chart/polar-chart.component';
+import {RadarChartComponent} from './featureModules/charts/radar-chart/radar-chart.component';
 
 export const appRoutes: Routes = [
   {path: 'signup', component: SignupComponent},
@@ -18,5 +19,6 @@ export const appRoutes: Routes = [
   {path: 'chart/sanky', component: SankyChartComponent},
   {path: 'chart/para', component: ParallelGraphComponent},
   {path: 'chart/error', component: ErrorBarsComponent},
-  {path: 'chart/polar', component: PolarChartComponent}
+  {path: 'chart/polar', component: PolarChartComponent},
+  {path: 'chart/radar', component: RadarChartComponent}
 ];
