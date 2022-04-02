@@ -11,8 +11,8 @@ export class PieChartComponent implements OnInit {
     data: [
       { value: [19, 26, 40, 10, 5], labels: ['BD', 'India', 'Pakistan'], type: 'pie' },
     ],
-    layout: {height: 400,
-      width: 500}
+    layout: {height: 700,
+      width: 800}
   };
 
   graph2 = {

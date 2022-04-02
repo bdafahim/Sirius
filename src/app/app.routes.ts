@@ -12,6 +12,7 @@ import {RadarChartComponent} from './featureModules/charts/radar-chart/radar-cha
 import {HeatChartComponent} from './featureModules/charts/heat-chart/heat-chart.component';
 import {BarChartPlotlyComponent} from './featureModules/charts/bar-chart-plotly/bar-chart-plotly.component';
 import {WaterfallChartComponent} from './featureModules/charts/waterfall-chart/waterfall-chart.component';
+import {CandlisticChartComponent} from './featureModules/charts/candlistic-chart/candlistic-chart.component';
 
 export const appRoutes: Routes = [
   {path: 'signup', component: SignupComponent},
@@ -26,5 +27,6 @@ export const appRoutes: Routes = [
   {path: 'chart/radar', component: RadarChartComponent},
   {path: 'chart/heat', component: HeatChartComponent},
   {path: 'chart/bar-p', component: BarChartPlotlyComponent},
-  {path: 'chart/waterfall', component: WaterfallChartComponent}
+  {path: 'chart/waterfall', component: WaterfallChartComponent},
+  {path: 'chart/candel', component: CandlisticChartComponent}
 ];

@@ -14,6 +14,7 @@ import { RadarChartComponent } from './radar-chart/radar-chart.component';
 import { HeatChartComponent } from './heat-chart/heat-chart.component';
 import { BarChartPlotlyComponent } from './bar-chart-plotly/bar-chart-plotly.component';
 import { WaterfallChartComponent } from './waterfall-chart/waterfall-chart.component';
+import { CandlisticChartComponent } from './candlistic-chart/candlistic-chart.component';
 PlotlyModule.plotlyjs = PlotlyJS;
 
 @NgModule({
@@ -29,7 +30,8 @@ PlotlyModule.plotlyjs = PlotlyJS;
     RadarChartComponent,
     HeatChartComponent,
     BarChartPlotlyComponent,
-    WaterfallChartComponent
+    WaterfallChartComponent,
+    CandlisticChartComponent
   ],
     imports: [
         CommonModule,

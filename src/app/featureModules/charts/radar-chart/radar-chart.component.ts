@@ -30,7 +30,9 @@ export class RadarChartComponent implements OnInit {
         visible: true,
         range: [0, 50]
       }
-    }
+    },
+    width: 700,
+    height: 700
   };
   constructor() { }
 

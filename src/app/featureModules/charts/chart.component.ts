@@ -54,4 +54,7 @@ export class ChartComponent implements OnInit {
   waterfallChart() {
     this.router.navigateByUrl('chart/waterfall');
   }
+  candelChart() {
+    this.router.navigateByUrl('chart/candel');
+  }
 }
