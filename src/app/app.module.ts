@@ -5,19 +5,22 @@ import {RouterModule} from '@angular/router';
 import {appRoutes} from './app.routes';
 import {SharedModule} from './shared/shared.module';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
+import {ChartsModule} from 'ng2-charts';
+import {FeatureChartsModule} from './featureModules/charts/charts.module';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(appRoutes),
     BsDatepickerModule.forRoot(),
-    SharedModule
+    SharedModule,
+    FeatureChartsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }

@@ -1,0 +1,19 @@
+<!--<plotly-plot-->
+<!--  [data]="data",-->
+<!--  [layout]="layout"-->
+<!--  [useResizeHandler]="true"-->
+<!--&gt;-->
+<!--</plotly-plot>-->
+<div fxFlexFill fxLayout="row wrap" class="plot">
+  <plotly-plot fxFlex="50"
+               [data]="graph1.data"
+               [layout]="graph1.layout"
+               [useResizeHandler]="true"
+               (hover)="hover($event)"
+               (mouseleave)="mouseLeave($event)"></plotly-plot>
+
+  <plotly-plot fxFlex="50"
+               [data]="(interactivePlotSubject$ | async)"
+               [layout]="graph2.layout"
+               [useResizeHandler]="true"></plotly-plot>
+</div>
