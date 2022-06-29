@@ -9,7 +9,7 @@ export class PieChartComponent implements OnInit {
 
   graph1 = {
     data: [
-      { value: [19, 26, 40, 10, 5], labels: ['BD', 'India', 'Pakistan'], type: 'pie' },
+      { value: [20, 50, 20, 5, 5], labels: ['BD', 'India', 'Pakistan', 'Nepal'], type: 'pie' },
     ],
     layout: {height: 700,
       width: 800}
